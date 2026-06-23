@@ -1,0 +1,76 @@
+    /* color: #95CCDD #4274D9; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #D0E7E6;
+    color: #293681;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+nav{
+    height: 7vh;
+    background-color: #7bb8cb;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+nav img{
+    width: 160px;
+}
+.equipment img{
+    width: 23vw;
+    height: 70vh;
+}
+main{
+    margin: 0.5rem;
+}
+.equipment ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+.anesthesia img, .gamma img, .mri img, .ultrasound img{
+    width: 50vw;
+    float: left;
+    border-right: 10px solid #D0E7E6;
+}
+footer{
+    clear: left;
+}
+.anesthesia ul, .gamma ul, .mri ul, .ultrasound ul{
+list-style-position: inside;
+}
+table{
+    margin: auto;
+    width: 97vw;
+    text-align: center;
+}
+
+/* Basic Reset for forms */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

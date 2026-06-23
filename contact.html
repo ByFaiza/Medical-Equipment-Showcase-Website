@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html"><img src="./meditech-logo.png" alt="meditech homepage"></a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html#equipment">Equipments</a></li>
+                <li><a href="./specifications.html">Specifications</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <h1>Contact Us</h1>
+    <p>We welcome inquiries from healthcare institutions, medical professionals, and business partners interested in our products and services.</p>
+    <br>
+    <div class="contact">
+    <h2>Contact Information</h2>
+    <p><strong>MediTech Solutions</strong></p>
+    <ul>
+        <li>Phone: <a href="tel:+92 51 1234567">+92 51 1234567</a></li>
+        <li>Email:<a href="mailto:info@meditechsolutions.com"> info@meditechsolutions.com</a>
+        </li>
+        <li>Address: <address>Islamabad, Pakistan</address></li>
+    </ul>
+    </div>
+    <hr>
+    <div class="form">
+        <h2>Equipment Inquiry Form</h2>
+        <form action="#" method="post">
+            <legend>Personal Information</legend>
+            <label for="name">Full Name:</label>
+            <input type="text" name="name" id="name" required>
+            <br>
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="number">Phone Number:</label>
+            <input type="tel" name="number" id="number" placeholder="0123 4567890" required>
+            <br>
+            <label for="hospital">Hospital/Organization:</label>
+            <input type="text" name="hospital" id="hospital">
+            <br>
+            <legend>Product Interest</legend>
+            <select name="product" id="product">
+                <option value="none" selected hidden disabled>Select Product</option>
+                <option value="gamma-camera">Gamma Camera</option>
+                <option value="anesthesia-machine">Anesthesia Machine</option>
+                <option value="ultrasound-machine">Ultrasound Machine</option>
+                <option value="mri">MRI Scanner</option>
+            </select>
+            <br>
+            <label for="message">Additional Information:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Type Here"></textarea>
+            <legend>Preferred Contact Method:</legend>
+            <label for="contact-method">Email</label>
+            <input type="radio" name="contact" id="contact-method" value="email">
+            <label for="contact-method2">Phone</label>
+            <input type="radio" name="contact" id="contact-method2" value="phone">
+            <br>
+            <label for="iquiry">Inquiry Type</label>
+            <input name="inquiry" id="inquiry" list="inquiry-type">
+            <datalist id="inquiry-type">
+                <option value="Product Information">
+                <option value="Price Quotation">
+                <option value="Technical Support">
+                <option value="Product Demonstration">
+            </datalist>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    </main>
+    <footer>
+        <hr>
+        Copyright &copy; 2026 MediTech Solutions
+    </footer>
+</body>
+</html>
